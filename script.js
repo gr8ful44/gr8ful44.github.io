@@ -79,7 +79,8 @@ gstl
          scrub: 1.5,
       },
       x: 900,
-      scale: 3.2,
+      rotate: 360,
+      scale: 2.4,
       opacity: 0,
    })
    .from(".boutMeTitle", {

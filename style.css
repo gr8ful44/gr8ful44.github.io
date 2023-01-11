@@ -198,7 +198,7 @@ ul {
 
 .boutMeTitle {
     font-size: 4rem;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.6);
 }
 
 .bio {
@@ -246,20 +246,20 @@ ul {
 
 .certiTitle {
     font-size: 2.8rem;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.6);
 }
 
 .aLink {
     width: 100%;
-    padding: 10px 14px;
+    padding: 10px 24px;
     color: #fff;
     font-size: 1rem;
     font-family: "2P";
 }
 
 .aLink:hover {
-    color: #fff;
-    background-color: #000;
+    background-color: rgba(255, 237, 72, 0.6);
+    transition: .4s;
 }
 
 /* myProject */
@@ -275,7 +275,7 @@ ul {
 .myWork>p {
     font-size: 6.4rem;
     letter-spacing: 2mm;
-    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.7);
 }
 
 /* page two */
@@ -286,7 +286,7 @@ ul {
 }
 
 .card {
-    width: fit-content;
+    width: 60%;
     height: 75vh;
     overflow: hidden;
     position: relative;
@@ -317,10 +317,10 @@ ul {
 }
 
 .desc {
-    width: 35%;
-    height: fit-content;
-    padding-left: 4rem;
+    width: 40%;
     line-height: 2;
+    height: fit-content;
+    background-color: rgba(73, 66, 172, 0.58);
 }
 
 .descTitle {
@@ -330,10 +330,6 @@ ul {
 /* page three */
 .pageThree {
     flex-direction: row-reverse;
-}
-
-.pageThree>.desc {
-    padding-left: 0;
 }
 
 @media screen and (max-width:768px) {
@@ -368,9 +364,6 @@ ul {
 }
 
 @media screen and (min-width:769px) {
-    .desc1 {
-        margin-left: 2rem;
-    }
 
     .descTitle2,
     .descTI2 {
@@ -380,6 +373,14 @@ ul {
     .descTitle {
         font-size: 1.3rem;
     }
+}
+
+.desc1 {
+    padding: 160px 2rem;
+}
+
+.desc2 {
+    padding: 100px 2rem;
 }
 
 /* page four */

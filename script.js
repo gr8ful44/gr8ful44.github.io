@@ -25,7 +25,7 @@ gsap.from(".span-work-title", {
    scrollTrigger: {
       trigger: ".span-work-title",
       start: "top center",
-      end: "+=40",
+      end: "+=20",
       scrub: 2,
       once: true,
    },

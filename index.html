@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>madmoo</title>
+    <link rel="icon" href="certi/piggy.png" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        scroll-behavior: smooth;
+      }
+
+      section {
+        height: 100vh;
+        display: flex;
+      }
+
+      /* หน้าแรก */
+      .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #111;
+        color: #fff;
+        text-align: center;
+      }
+
+      .home h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+      }
+
+      .certi-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .certi-container a {
+        text-decoration: none;
+        color: #fff;
+        background: #333;
+        padding: 15px 25px;
+        border-radius: 8px;
+        transition: 0.3s;
+      }
+
+      .certi-container a:hover {
+        background: #555;
+      }
+
+      /* section ทั่วไป */
+      .certi-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .certi-left,
+      .certi-right {
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .certi-left {
+        background: #f5f5f5;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .certi-left h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .certi-left p {
+        font-size: 1.2rem;
+        color: #555;
+      }
+
+      .certi-right img {
+        max-width: 90%;
+        max-height: 90%;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- หน้าแรก -->
+    <section class="home" id="home">
+      <h1>My Certificates</h1>
+      <div class="certi-container">
+        <a href="#css"><p class="p-certi">CSS</p></a>
+        <a href="#javascript"><p class="p-certi">JavaScript</p></a>
+        <a href="#java"><p class="p-certi">Java</p></a>
+        <a href="#sql"><p class="p-certi">SQL</p></a>
+        <a href="#nodejs"><p class="p-certi">NodeJS</p></a>
+        <a href="#frontend"><p class="p-certi">Frontend (React)</p></a>
+      </div>
+    </section>
+
+    <!-- Certificate Sections -->
+    <section class="certi-section" id="css">
+      <div class="certi-left">
+        <h2>CSS Certificate</h2>
+        <p>Completed CSS fundamentals</p>
+      </div>
+      <div class="certi-right">
+        <img src="certi/2.png" alt="CSS Certificate" />
+      </div>
+    </section>
+
+    <section class="certi-section" id="javascript">
+      <div class="certi-left">
+        <h2>JavaScript Certificate</h2>
+        <p>Mastering JavaScript basics</p>
+      </div>
+      <div class="certi-right">
+        <img src="certi/1.png" alt="JavaScript Certificate" />
+      </div>
+    </section>
+
+    <section class="certi-section" id="java">
+      <div class="certi-left">
+        <h2>Java Certificate</h2>
+        <p>Fundamentals of Java programming</p>
+      </div>
+      <div class="certi-right">
+        <img src="certi/5.png" alt="Java Certificate" />
+      </div>
+    </section>
+
+    <section class="certi-section" id="sql">
+      <div class="certi-left">
+        <h2>SQL Certificate</h2>
+        <p>Basic SQL queries and database operations</p>
+      </div>
+      <div class="certi-right">
+        <img src="certi/3.png" alt="SQL Certificate" />
+      </div>
+    </section>
+
+    <section class="certi-section" id="nodejs">
+      <div class="certi-left">
+        <h2>NodeJS Certificate</h2>
+        <p>Introduction to Node.js</p>
+      </div>
+      <div class="certi-right">
+        <img src="certi/4.png" alt="NodeJS Certificate" />
+      </div>
+    </section>
+
+    <section class="certi-section" id="frontend">
+      <div class="certi-left">
+        <h2>Frontend React Certificate</h2>
+        <p>Frontend development with React</p>
+      </div>
+      <div class="certi-right">
+        <img src="certi/6.png" alt="Frontend React Certificate" />
+      </div>
+    </section>
+  </body>
+</html>
